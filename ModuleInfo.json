@@ -1,0 +1,19 @@
+{
+  "Name": "SMG2 SpinningBox",
+  "Author": "Super Hackio",
+  "Description": "The kickable ? blocks from Gold Leaf",
+  "APIId": "SpinningBox_API",
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "SpinningBox",
+          "Function": "createExtActor<SpinningBox>",
+          "Include": "Game/MapObj/SpinningBox.h"
+        }
+      ]
+    }
+  ]
+}
